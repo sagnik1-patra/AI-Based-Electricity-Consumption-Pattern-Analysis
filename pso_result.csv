@@ -1,0 +1,7 @@
+﻿Category,Consumption,Percentage,Consumption_Rank,PSO_Normalized,PSO_Class,PSO_Class_Code,PSO_Predicted_Class,PSO_Rule_Match
+Industries (including Traction),28790,37.473317019836514,1,1.0,High,2,High,True
+Domestic,21990,28.622377258291248,2,0.7451274362818591,High,2,High,True
+Agriculture,12406,16.147758629666267,3,0.3859070464767616,Medium,1,Medium,True
+Commercial,8394,10.925704170354559,4,0.23553223388305847,Medium,1,Medium,True
+Miscellaneous,3138,4.084448378195449,5,0.03853073463268366,Low,0,Low,True
+Public Lighting & Water works,2110,2.746394543655959,6,0.0,Low,0,Low,True

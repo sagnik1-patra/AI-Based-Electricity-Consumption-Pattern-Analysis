@@ -1,0 +1,25 @@
+project_name: AI-Based Electricity Consumption Pattern Analysis Using AIS
+dataset_path: C:\Users\sagni\Downloads\AI-Based Electricity Consumption Pattern Analysis\Consumptionofelectricity_0.csv
+algorithm:
+  name: Clonal Selection Inspired AIS
+  population_size: 40
+  generations: 100
+  clone_factor: 5
+  mutation_rate: 0.12
+  elite_count: 8
+  random_state: 42
+classification:
+  classes:
+  - Low
+  - Medium
+  - High
+  threshold_1_MU: 8163.941432677588
+  threshold_2_MU: 19980.637378129377
+optimization:
+  objective: Minimize Within-Class SSE
+  best_fitness: -0.04452861275509173
+evaluation:
+  rule_agreement_percentage: 100.0
+  independent_test_accuracy: null
+output_directory: C:\Users\sagni\Downloads\AI-Based Electricity Consumption Pattern
+  Analysis

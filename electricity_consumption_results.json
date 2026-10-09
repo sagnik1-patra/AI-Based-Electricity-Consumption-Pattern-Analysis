@@ -1,0 +1,70 @@
+{
+    "project_name": "AI-Based Electricity Consumption Pattern Analysis",
+    "generated_at": "2026-10-09T15:24:59.433117",
+    "total_sectors": 6,
+    "total_consumption_MU": 76828.0,
+    "average_consumption_MU": 12804.666666666666,
+    "rule_agreement_percentage": 100.0,
+    "independent_test_accuracy": null,
+    "class_distribution": {
+        "Low": 2,
+        "Medium": 2,
+        "High": 2
+    },
+    "sector_results": [
+        {
+            "Category": "Industries (including Traction)",
+            "Consumption": 28790,
+            "Percentage": 37.473317019836514,
+            "Consumption_Rank": 1,
+            "Actual_Class": "High",
+            "Predicted_Class": "High",
+            "Correct_Classification": true
+        },
+        {
+            "Category": "Domestic",
+            "Consumption": 21990,
+            "Percentage": 28.622377258291248,
+            "Consumption_Rank": 2,
+            "Actual_Class": "High",
+            "Predicted_Class": "High",
+            "Correct_Classification": true
+        },
+        {
+            "Category": "Agriculture",
+            "Consumption": 12406,
+            "Percentage": 16.147758629666267,
+            "Consumption_Rank": 3,
+            "Actual_Class": "Medium",
+            "Predicted_Class": "Medium",
+            "Correct_Classification": true
+        },
+        {
+            "Category": "Commercial",
+            "Consumption": 8394,
+            "Percentage": 10.925704170354559,
+            "Consumption_Rank": 4,
+            "Actual_Class": "Medium",
+            "Predicted_Class": "Medium",
+            "Correct_Classification": true
+        },
+        {
+            "Category": "Miscellaneous",
+            "Consumption": 3138,
+            "Percentage": 4.084448378195449,
+            "Consumption_Rank": 5,
+            "Actual_Class": "Low",
+            "Predicted_Class": "Low",
+            "Correct_Classification": true
+        },
+        {
+            "Category": "Public Lighting & Water works",
+            "Consumption": 2110,
+            "Percentage": 2.746394543655959,
+            "Consumption_Rank": 6,
+            "Actual_Class": "Low",
+            "Predicted_Class": "Low",
+            "Correct_Classification": true
+        }
+    ]
+}

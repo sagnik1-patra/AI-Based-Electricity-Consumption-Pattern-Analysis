@@ -1,0 +1,25 @@
+project_name: AI-Based Electricity Consumption Pattern Analysis Using PSO
+dataset_path: C:\Users\sagni\Downloads\AI-Based Electricity Consumption Pattern Analysis\Consumptionofelectricity_0.csv
+algorithm:
+  name: Particle Swarm Optimization
+  num_particles: 40
+  max_iterations: 100
+  inertia_weight: 0.7
+  cognitive_coefficient: 1.5
+  social_coefficient: 1.5
+  random_state: 42
+classification:
+  classes:
+  - Low
+  - Medium
+  - High
+  threshold_1_MU: 5528.071719783564
+  threshold_2_MU: 14126.296823053732
+optimization:
+  objective: Minimize Within-Class SSE
+  best_sse: 0.04452861275509172
+evaluation:
+  rule_agreement_percentage: 100.0
+  independent_test_accuracy: null
+output_directory: C:\Users\sagni\Downloads\AI-Based Electricity Consumption Pattern
+  Analysis

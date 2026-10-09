@@ -1,0 +1,16 @@
+project_name: AI-Based Electricity Consumption Pattern Analysis
+dataset: C:\Users\sagni\Downloads\AI-Based Electricity Consumption Pattern Analysis\Consumptionofelectricity_0.csv
+model_type: Rule-Based Tertile Classification
+classification:
+  classes:
+  - Low
+  - Medium
+  - High
+  lower_threshold_MU: 6641.999999999998
+  upper_threshold_MU: 15600.66666666666
+evaluation:
+  metric: rule_agreement
+  agreement_percentage: 100.0
+  independent_test_accuracy: null
+output_directory: C:\Users\sagni\Downloads\AI-Based Electricity Consumption Pattern
+  Analysis
